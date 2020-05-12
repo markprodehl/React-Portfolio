@@ -1,8 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import myProfile from "./assets/profilePicture.png";
 
-function AboutMe() {
-  return <p>Hello Mark</p>;
+
+function AboutMe(props) {
+
+  // const myRef2 = useRef(null)
+  // const executeScroll = () => scrollToRef(myRef)
+  // const executeScroll2 = () => scrollToRef(myRef2)
+
+  return (
+      <div ref={props.myRef} id="aboutMe" class="row container aboutMe mx-auto">
+              <div class="col-lg-6">
+                  <img class="rndImg" src={myProfile} alt="my profilePic"/>
+              </div>
+              <div class="col-lg-6 text-center">
+                  <h2 class="pinkTxt" >About Me</h2>
+                  <p class="">Full Stack Web Developer with a passion for creativity in development and excited to contribute to the computer science field. Patient in developing solutions by tackling problems in an exceptionally detail-oriented and methodical nature. Performs well under the pressure of organizing and upholding project deadlines by being flexible and dependable. Currently working towards a Full Stack Coding Bootcamp Certificate from UCSD.</p>
+                  <div class="d-flex justify-content-center mt-4">
+                      <Link to={'/ProjectPage'}>
+                          <div class="myBtn text-center" >SHOW PROJECT</div>
+                      </Link>
+                  </div>
+              </div>
+          </div>
+  )
 }
 
-export default AboutMe;
+export default AboutMe
+
