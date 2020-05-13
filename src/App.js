@@ -12,11 +12,9 @@ function App() {
     <Router>
       <div>
         <NavBar />
-        <div class="">
-          <Route exact path= {["/", "/about"]} component={HomePage} />
+          <Route exact path={process.env.PUBLIC_URL} component={HomePage} />
           <Route exact path="/ProjectPage"  component={ProjectPage} />
           <Route exact path="/ContactPage"  component={ContactPage} />
-        </div>
         <Footer />
       </div>
     </Router>
