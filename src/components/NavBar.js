@@ -6,8 +6,8 @@ function NavBar( props ) {
     const location = useLocation();
 
     return(
-        <div class="container-fluid navParent ">
-        <nav class="navBar">
+        <div className="container-fluid navParent ">
+        <nav className="navBar">
             <ul class="d-flex justify-content-around">
                 <li className="">
                     <Link to="/" className="navbar-brand"><img src={myLogo} style={{width: "50px", height: '50px'}}alt="my Logo"/> </Link>

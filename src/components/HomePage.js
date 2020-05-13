@@ -16,15 +16,15 @@ function HomePage() {
     // }
     return (
         <div>
-            <div class="jumbotron jumbotron-fluid hero" >
-                <div class="container hero1" >
-                <div class="heroContext text-left" >
-                    <h1 class="display-4 heroHead" >MARK PRODEHL</h1>
-                    <div class="d-flex justify-content-start mt-4">
-                        <h1 class="heroSubTxt">Full Stack Developer / Business Development / Operations / Sales / Marketing / SEO</h1>
+            <div className="jumbotron jumbotron-fluid hero" >
+                <div className="container hero1" >
+                <div className="heroContext text-left" >
+                    <h1 className="display-4 heroHead" >MARK PRODEHL</h1>
+                    <div className="d-flex justify-content-start mt-4">
+                        <h1 className="heroSubTxt">Full Stack Developer / Business Development / Operations / Sales / Marketing / SEO</h1>
                     </div>
-                    <div class="d-flex justify-content-start mt-4">
-                        <div class="myBtn text-center"  onClick={executeScroll} >READ MORE</div>
+                    <div className="d-flex justify-content-start mt-4">
+                        <div className="myBtn text-center"  onClick={executeScroll} >READ MORE</div>
                     </div>
                 </div>
                 </div>

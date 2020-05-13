@@ -6,28 +6,28 @@ function ContactPage() {
     const imgStyle= {width: "100%", height: "80vh", objectFit: "cover"}
     return (
         <div>
-            <div class="bodyContained">
+            <div className="bodyContained">
                 <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
-                    <div class="container myBox">
-                        <div class="row mx-auto myMy ">
-                            <img class="col-lg-6" src={mapSD} alt="weather app" style={imgStyle}/>
-                            <div class="col-lg-6 text-center contactMe">
-                                <h2 class="mt-2">Contact Me</h2>
-                                <form class="card-body mt-2">
-                                    <div class="form-group text-left">
+                    <div className="container myBox">
+                        <div className="row mx-auto myMy ">
+                            <img className="col-lg-6" src={mapSD} alt="weather app" style={imgStyle}/>
+                            <div className="col-lg-6 text-center contactMe">
+                                <h2 className="mt-2">Contact Me</h2>
+                                <form className="card-body mt-2">
+                                    <div className="form-group text-left">
                                         <label for="fullName">Enter your Name</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder="Enter Your Name"/>
+                                        <input type="text" className="form-control" id="fullName" placeholder="Enter Your Name"/>
                                     </div>
-                                    <div class="form-group  text-left">
+                                    <div className="form-group  text-left">
                                         <label for="emailAddress">Enter your Email Address</label>
-                                        <input type="email" class="form-control" id="emailAddress" placeholder="Enter Your Email Address"/>
+                                        <input type="email" className="form-control" id="emailAddress" placeholder="Enter Your Email Address"/>
                                     </div>
-                                    <div class="form-group text-left">
+                                    <div className="form-group text-left">
                                         <label for="message">Enter your Message</label>
-                                        <textarea class="form-control" id="message" rows="3"></textarea>
+                                        <textarea className="form-control" id="message" rows="3"></textarea>
                                     </div>
-                                    <div class="d-flex justify-content-center mt-5">
-                                        <div class="myBtn text-center" >SUBMIT</div>
+                                    <div className="d-flex justify-content-center mt-5">
+                                        <div className="myBtn text-center" >SUBMIT</div>
                                     </div>
                                 </form>
                             </div>

@@ -10,16 +10,16 @@ function AboutMe(props) {
   // const executeScroll2 = () => scrollToRef(myRef2)
 
   return (
-      <div ref={props.myRef} id="aboutMe" class="row container aboutMe mx-auto">
-              <div class="col-lg-6">
+      <div ref={props.myRef} id="aboutMe" className="row container aboutMe mx-auto">
+              <div className="col-lg-6">
                   <img  src={myProfile} alt="my profilePic"/>
               </div>
-              <div class="col-lg-6 text-center">
-                  <h2 class="pinkTxt" >About Me</h2>
-                  <p class="">Full Stack Web Developer with a passion for creativity in development and excited to contribute to the computer science field. Patient in developing solutions by tackling problems in an exceptionally detail-oriented and methodical nature. Performs well under the pressure of organizing and upholding project deadlines by being flexible and dependable. Currently working towards a Full Stack Coding Bootcamp Certificate from UCSD.</p>
-                  <div class="d-flex justify-content-center mt-4">
+              <div className="col-lg-6 text-center">
+                  <h2 className="pinkTxt" >About Me</h2>
+                  <p className="">Full Stack Web Developer with a passion for creativity in development and excited to contribute to the computer science field. Patient in developing solutions by tackling problems in an exceptionally detail-oriented and methodical nature. Performs well under the pressure of organizing and upholding project deadlines by being flexible and dependable. Currently working towards a Full Stack Coding Bootcamp Certificate from UCSD.</p>
+                  <div className="d-flex justify-content-center mt-4">
                       <Link to={'/ProjectPage'}>
-                          <div class="myBtn text-center" >SHOW PROJECTS</div>
+                          <div className="myBtn text-center" >SHOW PROJECTS</div>
                       </Link>
                   </div>
               </div>
