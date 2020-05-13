@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import profileImg from './assets/profilePicture.png';
+// import profileImg from './assets/profilePicture.png';
+import mapSD from './assets/mapSD.png';
 function ContactPage() {
     const imgStyle= {width: "100%", height: "80vh", objectFit: "cover"}
     return (
@@ -9,7 +10,7 @@ function ContactPage() {
                 <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
                     <div class="container myBox">
                         <div class="row mx-auto myMy ">
-                            <img class="col-lg-6" src={profileImg} alt="weather app" style={imgStyle}/>
+                            <img class="col-lg-6" src={mapSD} alt="weather app" style={imgStyle}/>
                             <div class="col-lg-6 text-center contactMe">
                                 <h2 class="mt-2">Contact Me</h2>
                                 <form class="card-body mt-2">

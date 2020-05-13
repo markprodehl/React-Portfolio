@@ -21,7 +21,7 @@ function HomePage() {
                 <div class="heroContext text-left" >
                     <h1 class="display-4 heroHead" >MARK PRODEHL</h1>
                     <div class="d-flex justify-content-start mt-4">
-                        <p class="heroSubTxt">Full Stack Developer / Business Development / Operations / Sales / Marketing / SEO</p>
+                        <h1 class="heroSubTxt">Full Stack Developer / Business Development / Operations / Sales / Marketing / SEO</h1>
                     </div>
                     <div class="d-flex justify-content-start mt-4">
                         <div class="myBtn text-center"  onClick={executeScroll} >READ MORE</div>
