@@ -15,15 +15,15 @@ function ContactPage() {
                                 <h2 className="mt-2">Contact Me</h2>
                                 <form className="card-body mt-2">
                                     <div className="form-group text-left">
-                                        <label for="fullName">Enter your Name</label>
+                                        <label htmlFor="fullName">Enter your Name</label>
                                         <input type="text" className="form-control" id="fullName" placeholder="Enter Your Name"/>
                                     </div>
                                     <div className="form-group  text-left">
-                                        <label for="emailAddress">Enter your Email Address</label>
+                                        <label htmlFor="emailAddress">Enter your Email Address</label>
                                         <input type="email" className="form-control" id="emailAddress" placeholder="Enter Your Email Address"/>
                                     </div>
                                     <div className="form-group text-left">
-                                        <label for="message">Enter your Message</label>
+                                        <label htmlFor="message">Enter your Message</label>
                                         <textarea className="form-control" id="message" rows="3"></textarea>
                                     </div>
                                     <div className="d-flex justify-content-center mt-5">

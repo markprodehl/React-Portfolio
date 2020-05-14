@@ -33,6 +33,7 @@ body {
 }
 .bodyContained{
   width: 100%;
+  margin-bottom: 50px;
   padding: 30px 0;
   /* height: 100vh; */
   background-color: rgb(41,189,193);
@@ -115,15 +116,17 @@ ul  {
   /* border: none; */
 }
 .aboutMe {
-  height: 75vh;
+  height: 100%;
   background: #221b30;
    /* background-image: linear-gradient(45deg, #F78361,
   #F54B64); */
   /* background-color: rgb(41,189,193); */
   filter: drop-shadow( 0px 0px 8px #1a1725);
   margin: 80px auto;
-  padding: 50px 100px;
+  padding: 55px 30px;
   border-radius: 10px;
+  margin-left: 100px;
+ 
   
   
 }
@@ -207,9 +210,6 @@ a:hover {
   animation: bob .8s linear 1;
 }
 
-.card {
-  background-color: rgb(41,189,193);
-}
 
 
 
