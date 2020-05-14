@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import ProjectPage from './components/ProjectPage';
 import ContactPage from './components/ContactPage';
-import "./App.css";
+// import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
