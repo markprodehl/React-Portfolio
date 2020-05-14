@@ -53,7 +53,7 @@ function ProjectPage() {
                             <h2 className="mt-3 mb-4">
                             Online-Offline Budget Tracker
                             </h2>
-                            <p>The Online-Offline-Budget-Tracker App is designed to optimize user experience, particularly on older phones with slower internet connections. It is a progressive web application that uses Service Worker and Cache API’s to cache assets and API responses. This means that it can function without an internet connection.
+                            <p>The Online-Offline-Budget-Tracker App is designed to optimize user experience, particularly on older phones with slower internet connections. It is a progressive web application that uses a Service Worker and Cache API’s to cache assets and API responses. This means that it can function without an internet connection.
                             </p>
                             <div className="d-flex justify-content-center mt-4">
                                 <a className="myBtn text-center" href="https://offlinebudget-tracker.herokuapp.com/">VIEW APP</a>

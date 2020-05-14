@@ -40,8 +40,6 @@ body {
 }
 .hero1{
   position: relative;
-  
-
 }
 .heroContext{
   position: absolute;
@@ -104,6 +102,7 @@ ul  {
   border-radius: 30px;
   filter: drop-shadow( 3px 3px 6px #000000);
   transition: ease all .5s;
+  margin-bottom: 20px;
 
   
 }
@@ -125,6 +124,7 @@ ul  {
   margin: 80px auto;
   padding: 50px 100px;
   border-radius: 10px;
+  
   
 }
 img {
@@ -206,4 +206,10 @@ a:hover {
   font-size: 1.5rem;
   animation: bob .8s linear 1;
 }
+
+.card {
+  background-color: rgb(41,189,193);
+}
+
+
 
