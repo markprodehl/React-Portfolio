@@ -22,7 +22,7 @@ function ProjectPage() {
                             <p >30-Day-Challenge is a full-stack web application that uses server side-API and an MVC design pattern. The application is designed for people that want to challenge themselves by committing to a fitness regime designed to challenge their physical and mental toughness. Users set can set multiple 30-day goals which they can keep track of in the easy to use challenge dashboard. 
                             </p>
                             <div className="d-flex justify-content-center mt-4">
-                                <a className="myBtn text-center" href="https://thirty-day-challenge.herokuapp.com/login" target="_blank" rel="noopener noreferrer">VIEW APP</a>
+                                <a className="myBtn text-center" href="https://thirty-day-challenge.herokuapp.com/login">VIEW APP</a>
                             </div>
                         </div>
                     </div>

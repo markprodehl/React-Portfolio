@@ -10,7 +10,7 @@ function AboutMe(props) {
   // const executeScroll2 = () => scrollToRef(myRef2)
 
   return (
-      <div ref={props.myRef} className="row container  aboutMe mx-auto">
+      <div ref={props.myRef} className="row container aboutMe mx-auto">
               <div className="col-lg-5">
                   <img  src={myProfile} alt="my profilePic"/>
               </div>
