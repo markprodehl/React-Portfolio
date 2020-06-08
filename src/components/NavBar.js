@@ -10,7 +10,7 @@ function NavBar( props ) {
         <nav className="navBar">
             <ul className="d-flex justify-content-around">
                 <li className="">
-                    <Link to="/" className="navbar-brand"><img src={myLogo} style={{width: "50px", height: '50px'}}alt="my Logo"/> </Link>
+                    <Link to="/about" className="navbar-brand"><img src={myLogo} style={{width: "50px", height: '50px'}}alt="my Logo"/> </Link>
                 </li>
                 <li className="nav-item">
                     <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
