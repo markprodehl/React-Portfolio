@@ -1,10 +1,6 @@
 import React , {useRef}  from 'react'
 import AboutMe from './AboutMe';
 
-//added
-import { Link } from "react-router-dom";
-import myProfile from "./assets/profilePicture.png";
-
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop); 
 
 //added props
