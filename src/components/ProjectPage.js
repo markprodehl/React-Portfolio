@@ -1,6 +1,7 @@
 import React from 'react';
 import foogLoggerImg from "./assets/foodLogger.png";
 import thirtyDaysImg from "./assets/thirtyDays.png";
+import appScreenshot from "./assets/appScreenshot.png";
 import onlineOfflineTracker from "./assets/onlineOfflineTracker.png";
 import memoryGameImg from "./assets/memoryGame.png";
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -10,6 +11,25 @@ function ProjectPage() {
     return (
         <div>
             <div className="bodyContained">
+            <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+                    <div className="row container mx-auto myBox">
+                        <div className="col-lg-6">
+                            <img src={appScreenshot} alt="weather app" style={{width: "100%"}}/>
+                        </div>
+                        <div className="col-lg-6 text-center pt-4">
+                            <h2 className="mt-3 mb-4">
+                            PawPals
+                            </h2>
+                            <p >PawPals is a full-stack web application construted with an Express backend web framework, Mongo database storage, Node runtime environment, Amazon S3, React and Redux. It is a pet relationship application designed to meet the 
+                                growing demand for dog owners to preserve their privacy while sharing pictures and building relationships with local pups. 
+                                Users can follow and unfollow other doggie members and start converations. Pet owners can also feel 
+                                comfortable sharing photos on a pet only website without annoying adds. </p>
+                            <div className="d-flex justify-content-center mt-4">
+                                <a className="myBtn text-center" href="https://pawpals-social-network.herokuapp.com/" target="_blank" rel="noopener noreferrer">VIEW APP</a>
+                            </div>
+                        </div>
+                    </div>
+                </ScrollAnimation> 
                 <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
                     <div className="row container mx-auto myBox">
                         <div className="col-lg-6">
