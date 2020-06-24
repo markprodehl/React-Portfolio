@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.a14e80ad.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.c65de54d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.c65de54d.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.a0d97005.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.a0d97005.js.map",
+    "static/js/2.67cafc35.chunk.js": "/React-Portfolio/static/js/2.67cafc35.chunk.js",
+    "static/js/2.67cafc35.chunk.js.map": "/React-Portfolio/static/js/2.67cafc35.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.dd1dcd38d341bb48cf1c28cbcbb18726.js": "/React-Portfolio/precache-manifest.dd1dcd38d341bb48cf1c28cbcbb18726.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/main.a14e80ad.chunk.css.map": "/React-Portfolio/static/css/main.a14e80ad.chunk.css.map",
+    "static/js/2.67cafc35.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.67cafc35.chunk.js.LICENSE.txt",
+    "static/media/appScreenshot.png": "/React-Portfolio/static/media/appScreenshot.d7686a93.png",
+    "static/media/foodLogger.png": "/React-Portfolio/static/media/foodLogger.7fde8ae3.png",
+    "static/media/mapSD.png": "/React-Portfolio/static/media/mapSD.6acc6adc.png",
+    "static/media/memoryGame.png": "/React-Portfolio/static/media/memoryGame.dedc9802.png",
+    "static/media/onlineOfflineTracker.png": "/React-Portfolio/static/media/onlineOfflineTracker.34f3f043.png",
+    "static/media/profilePicture.png": "/React-Portfolio/static/media/profilePicture.f804d319.png",
+    "static/media/thirtyDays.png": "/React-Portfolio/static/media/thirtyDays.4f8563d0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0d97005.js",
+    "static/js/2.67cafc35.chunk.js",
+    "static/css/main.a14e80ad.chunk.css",
+    "static/js/main.c65de54d.chunk.js"
+  ]
+}
