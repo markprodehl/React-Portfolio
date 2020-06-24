@@ -47,7 +47,24 @@ function ProjectPage() {
                             </div>
                         </div>
                     </div>
-                </ScrollAnimation>        
+                </ScrollAnimation>  
+                <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+                    <div className="row container mx-auto myBox">
+                        <div  className="col-lg-6 text-center pt-4">
+                            <h2 className="mt-3 mb-4">
+                            Memory Game
+                            </h2>
+                            <p>Memory Game is an application designed to work in the browser. No need to buy or install anything locally. This makes it a cheap and convenient way to exercise your memory while having a fun. Memory Game can be played by people of all ages.
+                            </p>
+                            <div className="d-flex justify-content-center mt-4">
+                                <a className="myBtn text-center" href="https://markprodehl.github.io/Memory-Game/" target="_blank" rel="noopener noreferrer">VIEW APP</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <img src={memoryGameImg} alt="food app"/>
+                        </div>
+                    </div>        
+                </ScrollAnimation>         
                 <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
                     <div className="row container mx-auto myBox">
                         <div  className="col-lg-6 text-center pt-4">
@@ -82,6 +99,23 @@ function ProjectPage() {
                         </div>
                     </div>
                 </ScrollAnimation>   
+                <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+                    <div className="row container mx-auto myBox">
+                        <div  className="col-lg-6 text-center pt-4">
+                            <h2 className="mt-3 mb-4">
+                            Food Logger
+                            </h2>
+                            <p>The Food Logger application uses MySQL, Node, Express, Handlebars and a custom built ORM designed to take customer orders and keep a record of the ones that have been delivered and eaten. Devoured burgers are kept in a database for the restaurant managers records.
+                            </p>
+                            <div className="d-flex justify-content-center mt-4">
+                                <a className="myBtn text-center" href="https://the-food-logger.herokuapp.com/" target="_blank" rel="noopener noreferrer">VIEW APP</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <img src={foogLoggerImg} alt="food app"/>
+                        </div>
+                    </div>        
+                </ScrollAnimation>    
                 <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
                     <div className="row container mx-auto myBox">
                         <div  className="col-lg-6 text-center pt-4">
