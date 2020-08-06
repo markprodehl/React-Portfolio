@@ -20,7 +20,7 @@ function ProjectPage() {
                             <p>PawPals is a full-stack web application construted with an Express backend web framework, Mongo database storage, Node runtime environment, Amazon S3, React and Redux. It is a pet relationship application designed to meet the 
                                 growing demand for dog owners to preserve their privacy while sharing pictures and building relationships with local pups. 
                                 Users can follow and unfollow other doggie members and start converations. Pet owners can also feel 
-                                comfortable sharing photos on a pet only website without annoying adds.
+                                comfortable sharing photos on a pet only website without annoying ads.
                             </p>
                             <div className="d-flex justify-content-center mt-4">
                                 <a className="myBtn text-center" href="https://pawpals-social-network.herokuapp.com/" target="_blank" rel="noopener noreferrer">VIEW APP</a>
